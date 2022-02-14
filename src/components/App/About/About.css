@@ -1,0 +1,60 @@
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.faq {
+  width: 50%;
+}
+
+.section h1 {
+  font-size: 32px;
+  font-weight: 300;
+  color: #0c4fa0;
+}
+
+.section p {
+  font-size: 18px;
+  font-weight: 300;
+  padding-bottom: 5px;
+}
+
+ul {
+  font-size: 14px;
+  font-weight: 200;
+  padding-left: 25px;
+}
+
+li {
+  padding: 3px;
+}
+
+.answer {
+  font-size: 20px;
+  font-weight: 300;
+  padding-bottom: 5px;
+}
+
+/*
+TODO: Prevent leaking
+*/
+/* span {
+  font-weight: 400;
+} */
+
+.rose {
+  color: #f18db0;
+}
+
+.lemon {
+  color: #d6e063;
+}
+
+.eucalyptus {
+  color: #56af57;
+}
+
+.clove {
+  color: #a0877f;
+}
