@@ -1,3 +1,4 @@
+import { ReactComponent as LogoIcon } from "src/assets/svg/logo.svg";
 import { Link } from "react-router-dom";
 import "./Home.css";
 
@@ -6,11 +7,7 @@ function Home() {
     <div className="content-wrapper">
       <div className="banner">
         <div>
-          <img
-            className="logo"
-            src="src/assets/images/logo.png"
-            alt="SmellSense Logo"
-          />
+          <LogoIcon className="logo" />
         </div>
         <div className="banner-text">
           <h1>

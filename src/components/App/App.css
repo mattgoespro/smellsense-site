@@ -1,6 +1,6 @@
 nav {
   display: flex;
-  justify-content: center;
+  justify-content: space-between;
   align-items: center;
   background-color: #074166;
   width: 100%;
@@ -10,9 +10,30 @@ nav {
 }
 
 .nav-text {
+  width: 200px;
   text-align: center;
-  font-size: 32px;
-  font-weight: 200;
-  text-shadow: 2px 2px rgba(255, 255, 255, 0.1);
+  font-size: 24px;
+  font-weight: 400;
   color: white;
+  /* margin-right: calc(50% - 110px); */
+}
+
+.icon-wrapper {
+  width: 30px;
+  height: 30px;
+}
+
+.home-button-wrapper {
+  background-color: white;
+  border-radius: 5px;
+  margin: 5px 10px;
+}
+
+.home-button {
+  width: 20px;
+  height: 20px;
+}
+
+.info-button {
+  fill: #fff;
 }

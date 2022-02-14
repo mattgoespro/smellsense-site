@@ -54,9 +54,9 @@ function About() {
         </div>
         <div className="section">
           <h1>
-            I don't haave the official Smell
-            <span style={{ color: "#2499f0" }}>Sense</span>
-            kit, so am I still able to use this app?
+            I don't have the official Smell
+            <span style={{ color: "#2499f0" }}>Sense</span> kit, so am I still
+            able to use this app?
           </h1>
           <p className="answer">Yes!</p>
           <p>

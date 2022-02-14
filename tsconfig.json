@@ -18,7 +18,7 @@
     "baseUrl": "./",
     "sourceMap": true,
     "sourceRoot": "./src",
-    "paths": { "assets/*": ["src/assets/*"] }
+    "paths": { "src/assets/svg/*": ["src/assets/svg/*"] }
   },
   "include": ["src"]
 }
