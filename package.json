@@ -1,7 +1,7 @@
 {
   "name": "smellsense-site",
   "version": "0.1.0",
-  "homepage": ".",
+  "homepage": "http://mattgoespro.github.io/smellsense",
   "private": true,
   "dependencies": {
     "@emotion/react": "^11.7.1",
@@ -29,7 +29,7 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "serve": "npx serve -s build",
-    "publish": "npm run build && gh-pages -d build",
+    "publish": "npm run build && gh-pages --dist build --repo https://github.com/mattgoespro/smellsense.git",
     "clean": "rm -rf build"
   },
   "eslintConfig": {
