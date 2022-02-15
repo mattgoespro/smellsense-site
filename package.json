@@ -25,6 +25,7 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "serve": "npx serve -s build",
+    "publish": "",
     "clean": "rm -rf build"
   },
   "browserslist": {
