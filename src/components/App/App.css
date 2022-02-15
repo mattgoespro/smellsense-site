@@ -37,3 +37,7 @@ nav {
 .info-button {
   fill: #fff;
 }
+
+.contact-link {
+  text-decoration: none;
+}

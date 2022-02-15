@@ -2,16 +2,36 @@
   display: flex;
   flex-direction: column;
   align-items: center;
+  font-family: "Roboto";
 }
 
 .faq {
   width: 50%;
 }
 
-.section h1 {
-  font-size: 32px;
+.faq-header {
   font-weight: 300;
   color: #0c4fa0;
+  margin: 30px;
+}
+
+.faq-card {
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px !important;
+  margin-bottom: 10px;
+}
+
+.faq-question-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 13px;
+}
+
+.faq-question {
+  font-size: 24px;
+  font-weight: 300;
+  color: #0c4fa0;
+  margin: 0;
 }
 
 .section p {
@@ -20,28 +40,22 @@
   padding-bottom: 5px;
 }
 
-ul {
-  font-size: 14px;
-  font-weight: 200;
-  padding-left: 25px;
-}
-
-li {
-  padding: 3px;
-}
-
-.answer {
-  font-size: 20px;
+.faq-answer {
+  padding-top: 0 !important;
+  font-size: 16px;
   font-weight: 300;
   padding-bottom: 5px;
 }
 
-/*
-TODO: Prevent leaking
-*/
-/* span {
+:local(span) {
   font-weight: 400;
-} */
+}
+
+li {
+  padding: 3px;
+  font-size: 18px;
+  font-weight: 300;
+}
 
 .rose {
   color: #f18db0;

@@ -1,11 +1,16 @@
-import { useEffect } from "react";
+import { useEffect, useState } from "react";
 import { Link, Outlet, useLocation, useNavigate } from "react-router-dom";
 import { ReactComponent as LogoIcon } from "src/assets/svg/logo.svg";
 import HelpOutlineIcon from "@mui/icons-material/HelpOutline";
 import "./App.css";
-import { IconButton } from "@mui/material";
+import { IconButton, Menu, MenuItem } from "@mui/material";
 
 function App() {
+  const [anchorEl, setAnchorEl] = useState<null | HTMLElement>(null);
+  const open = Boolean(anchorEl);
+  const handleClose = () => {
+    setAnchorEl(null);
+  };
   const navigate = useNavigate();
   const location = useLocation();
 
@@ -23,11 +28,35 @@ function App() {
             <LogoIcon></LogoIcon>
           </Link>
         </div>
-        <div className="nav-text">SmellSense</div>
         <div>
-          <IconButton>
+          <IconButton
+            aria-controls={open ? "basic-menu" : undefined}
+            aria-haspopup="true"
+            aria-expanded={open ? "true" : undefined}
+            onClick={(event) => setAnchorEl(event.currentTarget)}
+          >
             <HelpOutlineIcon style={{ fill: "#fff" }} />
           </IconButton>
+          <Menu
+            id="basic-menu"
+            anchorEl={anchorEl}
+            open={open}
+            onClose={handleClose}
+            MenuListProps={{
+              "aria-labelledby": "basic-button",
+            }}
+          >
+            <MenuItem onClick={handleClose}>
+              <Link to="/about" className="contact-link">
+                Training Help
+              </Link>
+            </MenuItem>
+            <MenuItem onClick={handleClose}>
+              <a className="contact-link" href="mailto: smellsenseza@gmail.com">
+                Contact
+              </a>
+            </MenuItem>
+          </Menu>
         </div>
       </nav>
       <Outlet />

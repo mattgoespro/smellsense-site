@@ -1,5 +1,4 @@
 import { ReactComponent as LogoIcon } from "src/assets/svg/logo.svg";
-import { Link } from "react-router-dom";
 import "./Home.css";
 
 function Home() {
@@ -10,10 +9,10 @@ function Home() {
           <LogoIcon className="logo" />
         </div>
         <div className="banner-text">
-          <h1>
+          <h1 className="banner-text-title">
             Smell<span style={{ color: "#057dc9" }}>Sense</span>
           </h1>
-          <h2>The Smell Training Solution</h2>
+          <h2 className="banner-text-subtitle">The Smell Training Solution</h2>
           <div className="external-links">
             <a
               href="https://www.facebook.com/SmellSense-345235540113222/"
@@ -37,13 +36,6 @@ function Home() {
                 className="external-link"
                 src="https://github.com/mattgoespro/public-resources/blob/master/images/logos/png/shopify.png?raw=true"
                 alt="Shopify"
-              />
-            </a>
-            <a href="mailto: smellsenseza@gmail.com">
-              <img
-                className="external-link"
-                src="https://github.com/mattgoespro/public-resources/blob/master/images/logos/png/gmail.png?raw=true"
-                alt="Email"
               />
             </a>
           </div>
@@ -81,10 +73,6 @@ function Home() {
             </div>
           </div>
         </div>
-      </div>
-      <div className="others">
-        <Link to="/privacy">Privacy Policy</Link>
-        <Link to="/about">About Us</Link>
       </div>
     </div>
   );

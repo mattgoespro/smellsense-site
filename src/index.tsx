@@ -1,12 +1,12 @@
 import React from "react";
 import ReactDOM from "react-dom";
-import "./index.css";
 import App from "./components/App/App";
 import reportWebVitals from "./reportWebVitals";
 import { BrowserRouter, Route, Routes } from "react-router-dom";
 import About from "./components/App/About/About";
 import Home from "./components/App/Home/Home";
 import PrivacyPolicy from "./components/App/Privacy-Policy/Privacy-Policy";
+import "./index.css";
 
 ReactDOM.render(
   <React.StrictMode>
