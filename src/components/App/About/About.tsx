@@ -90,7 +90,7 @@ export default function About() {
               I'm ready to begin my training. What do I do?
             </h1>
             <ExpandMore
-              expand={expanded[0] as boolean}
+              expand={expanded[1] as boolean}
               onClick={() => handleExpandClick(1)}
               aria-expanded={expanded[1] as boolean}
               aria-label="Content"

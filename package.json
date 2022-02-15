@@ -24,7 +24,8 @@
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
-    "build:clean": "rm -rf build"
+    "serve": "npx serve -s build",
+    "clean": "rm -rf build"
   },
   "browserslist": {
     "production": [
