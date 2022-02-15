@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/smellsense-site/static/css/main.88b94763.css",
-    "main.js": "/smellsense-site/static/js/main.ebc779f8.js",
-    "static/js/787.f0897922.chunk.js": "/smellsense-site/static/js/787.f0897922.chunk.js",
-    "static/media/logo.svg": "/smellsense-site/static/media/logo.a095eb3f4e1e2671d9244a1bc37ea791.svg",
-    "index.html": "/smellsense-site/index.html",
-    "main.88b94763.css.map": "/smellsense-site/static/css/main.88b94763.css.map",
-    "main.ebc779f8.js.map": "/smellsense-site/static/js/main.ebc779f8.js.map",
-    "787.f0897922.chunk.js.map": "/smellsense-site/static/js/787.f0897922.chunk.js.map"
+    "main.css": "./static/css/main.88b94763.css",
+    "main.js": "./static/js/main.a500937a.js",
+    "static/js/787.f0897922.chunk.js": "./static/js/787.f0897922.chunk.js",
+    "static/media/logo.svg": "./static/media/logo.a095eb3f4e1e2671d9244a1bc37ea791.svg",
+    "index.html": "./index.html",
+    "main.88b94763.css.map": "./static/css/main.88b94763.css.map",
+    "main.a500937a.js.map": "./static/js/main.a500937a.js.map",
+    "787.f0897922.chunk.js.map": "./static/js/787.f0897922.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.88b94763.css",
-    "static/js/main.ebc779f8.js"
+    "static/js/main.a500937a.js"
   ]
 }
