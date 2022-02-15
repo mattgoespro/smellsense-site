@@ -16,7 +16,8 @@ function Home() {
           <div className="external-links">
             <a
               href="https://www.facebook.com/SmellSense-345235540113222/"
-              target="tab"
+              target="_blank"
+              rel="noreferrer"
             >
               <img
                 className="external-link"
@@ -24,14 +25,22 @@ function Home() {
                 alt="Facebook"
               />
             </a>
-            <a href="https://twitter.com/smellsense" target="tab">
+            <a
+              href="https://twitter.com/smellsense"
+              target="_blank"
+              rel="noreferrer"
+            >
               <img
                 className="external-link"
                 src="https://github.com/mattgoespro/public-resources/blob/master/images/logos/png/twitter.png?raw=true"
                 alt="Twitter"
               />
             </a>
-            <a href="https://smellsense.myshopify.com/" target="tab">
+            <a
+              href="https://smellsense.myshopify.com/"
+              target="_blank"
+              rel="noreferrer"
+            >
               <img
                 className="external-link"
                 src="https://github.com/mattgoespro/public-resources/blob/master/images/logos/png/shopify.png?raw=true"
@@ -50,7 +59,8 @@ function Home() {
             <div>
               <a
                 href="https://play.google.com/store/apps/details?id=za.co.smellsense"
-                target="tab"
+                target="_blank"
+                rel="noreferrer"
               >
                 <img
                   className="store"
@@ -63,7 +73,7 @@ function Home() {
           <div className="card">
             <div className="platform-title">App Store</div>
             <div>
-              <a href="https://google.com" target="tab">
+              <a href="https://google.com" target="_blank" rel="noreferrer">
                 <img
                   className="store"
                   src="https://github.com/mattgoespro/public-resources/blob/master/images/logos/png/ios-app-store.png?raw=true"

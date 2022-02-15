@@ -35,6 +35,13 @@ export default function About() {
     });
   };
 
+  const cardHeaderContentStyle = {
+    display: "flex",
+    alignItems: "center",
+    height: 40,
+    padding: "0px !important",
+  };
+
   return (
     <div className="wrapper">
       <div>
@@ -42,7 +49,7 @@ export default function About() {
       </div>
       <div className="faq">
         <Card className="faq-card">
-          <div className="faq-question-header">
+          <CardContent sx={cardHeaderContentStyle}>
             <h1 className="faq-question">What is smell training? </h1>
             <ExpandMore
               expand={expanded[0]}
@@ -52,7 +59,7 @@ export default function About() {
             >
               <ExpandMoreIcon />
             </ExpandMore>
-          </div>
+          </CardContent>
 
           <Collapse in={expanded[0]} timeout="auto" unmountOnExit>
             <CardContent className="faq-answer">
@@ -67,7 +74,8 @@ export default function About() {
                 -{" "}
                 <a
                   href="https://www.lexico.com/definition/neuroplasticity"
-                  target="tab"
+                  target="_blank"
+                  rel="noreferrer"
                 >
                   Lexico Oxford Dictionary
                 </a>
@@ -77,7 +85,7 @@ export default function About() {
           </Collapse>
         </Card>
         <Card className="faq-card">
-          <div className="faq-question-header">
+          <CardContent sx={cardHeaderContentStyle}>
             <h1 className="faq-question">
               I'm ready to begin my training. What do I do?
             </h1>
@@ -89,7 +97,7 @@ export default function About() {
             >
               <ExpandMoreIcon />
             </ExpandMore>
-          </div>
+          </CardContent>
           <Collapse in={expanded[1]} timeout="auto" unmountOnExit>
             <CardContent className="faq-answer">
               <p>
@@ -107,7 +115,7 @@ export default function About() {
           </Collapse>
         </Card>
         <Card className="faq-card">
-          <div className="faq-question-header">
+          <CardContent sx={cardHeaderContentStyle}>
             <h1 className="faq-question">
               Over how long a period do I need to smell train in order to
               recover fully?
@@ -120,7 +128,7 @@ export default function About() {
             >
               <ExpandMoreIcon />
             </ExpandMore>
-          </div>
+          </CardContent>
           <Collapse in={expanded[2]} timeout="auto" unmountOnExit>
             <CardContent className="faq-answer">
               <p>
@@ -145,7 +153,7 @@ export default function About() {
           </Collapse>
         </Card>
         <Card className="faq-card">
-          <div className="faq-question-header">
+          <CardContent sx={cardHeaderContentStyle}>
             <h1 className="faq-question">
               I don't have the official Smell
               <span style={{ color: "#2499f0" }}>Sense</span> kit, so am I still
@@ -159,7 +167,7 @@ export default function About() {
             >
               <ExpandMoreIcon />
             </ExpandMore>
-          </div>
+          </CardContent>
           <Collapse in={expanded[3]} timeout="auto" unmountOnExit>
             <CardContent className="faq-answer">
               <p style={{ fontWeight: 400 }}>Yes!</p>

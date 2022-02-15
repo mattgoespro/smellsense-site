@@ -52,8 +52,23 @@ function App() {
               </Link>
             </MenuItem>
             <MenuItem onClick={handleClose}>
-              <a className="contact-link" href="mailto: smellsenseza@gmail.com">
+              <a
+                className="contact-link"
+                href="mailto:mattyoung305@gmail.com"
+                target="_blank"
+                rel="noreferrer"
+              >
                 Contact
+              </a>
+            </MenuItem>
+            <MenuItem onClick={handleClose}>
+              <a
+                className="contact-link"
+                href="https://www.termsfeed.com/live/2a4eeb2f-bdeb-40c5-8a5b-823f100d0ba9"
+                target="_blank"
+                rel="noreferrer"
+              >
+                Privacy Policy
               </a>
             </MenuItem>
           </Menu>
