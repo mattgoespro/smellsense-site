@@ -1,12 +1,11 @@
-import { ReactComponent as LogoIcon } from "src/assets/svg/logo.svg";
 import "./Home.css";
 
 function Home() {
   return (
     <div className="content-wrapper">
       <div className="banner">
-        <div>
-          <LogoIcon className="logo" />
+        <div className="logo-wrapper">
+          <img className="logo" src={require('../../../assets/images/icon-banner.png')} alt="Logo"></img>
         </div>
         <div className="banner-text">
           <h1 className="banner-text-title">
@@ -73,7 +72,7 @@ function Home() {
           <div className="card">
             <div className="platform-title">App Store</div>
             <div>
-              <a href="https://google.com" target="_blank" rel="noreferrer">
+              <a href="https://apps.apple.com/us/app/smellsense-smell-training/id1594343545" target="_blank" rel="noreferrer">
                 <img
                   className="store"
                   src="https://github.com/mattgoespro/public-resources/blob/master/images/logos/png/ios-app-store.png?raw=true"

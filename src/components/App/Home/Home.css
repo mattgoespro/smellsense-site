@@ -52,9 +52,14 @@ img.store {
   text-shadow: 2px 2px 4px #7e7d7d;
 }
 
+.logo-wrapper {
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+  border-radius: 30px;
+  margin-bottom: 20px;
+}
+
 .logo {
-  width: 120px;
-  height: 120px;
+  width: 130px;
 }
 
 .banner {

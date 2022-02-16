@@ -2,8 +2,8 @@ import { useEffect, useState } from "react";
 import { Link, Outlet, useLocation, useNavigate } from "react-router-dom";
 import { ReactComponent as LogoIcon } from "src/assets/svg/logo.svg";
 import HelpOutlineIcon from "@mui/icons-material/HelpOutline";
-import "./App.css";
 import { IconButton, Menu, MenuItem } from "@mui/material";
+import "./App.css";
 
 function App() {
   const [anchorEl, setAnchorEl] = useState<null | HTMLElement>(null);
@@ -23,9 +23,9 @@ function App() {
   return (
     <div className="App">
       <nav>
-        <div className="home-button-wrapper icon-wrapper">
-          <Link to="/home" className="home-button">
-            <LogoIcon></LogoIcon>
+        <div className="home-button-wrapper">
+          <Link to="/home">
+            <LogoIcon className="home-button"/>
           </Link>
         </div>
         <div>
