@@ -5,7 +5,10 @@ function Home() {
     <div className="content-wrapper">
       <div className="banner">
         <div className="logo-wrapper">
-          <img className="logo" src={require('../../../assets/images/icon-banner.png')} alt="Logo"></img>
+          <img
+            className="logo"
+            src={require("src/app/assets/media/images/uct-logo.png")}
+            alt="Logo"></img>
         </div>
         <div className="banner-text">
           <h1 className="banner-text-title">
@@ -16,8 +19,7 @@ function Home() {
             <a
               href="https://www.facebook.com/SmellSense-345235540113222/"
               target="_blank"
-              rel="noreferrer"
-            >
+              rel="noreferrer">
               <img
                 className="external-link"
                 src="https://github.com/mattgoespro/public-resources/blob/master/images/logos/png/facebook.png?raw=true"
@@ -27,8 +29,7 @@ function Home() {
             <a
               href="https://twitter.com/smellsense"
               target="_blank"
-              rel="noreferrer"
-            >
+              rel="noreferrer">
               <img
                 className="external-link"
                 src="https://github.com/mattgoespro/public-resources/blob/master/images/logos/png/twitter.png?raw=true"
@@ -38,8 +39,7 @@ function Home() {
             <a
               href="https://smellsense.myshopify.com/"
               target="_blank"
-              rel="noreferrer"
-            >
+              rel="noreferrer">
               <img
                 className="external-link"
                 src="https://github.com/mattgoespro/public-resources/blob/master/images/logos/png/shopify.png?raw=true"
@@ -59,8 +59,7 @@ function Home() {
               <a
                 href="https://play.google.com/store/apps/details?id=za.co.smellsense"
                 target="_blank"
-                rel="noreferrer"
-              >
+                rel="noreferrer">
                 <img
                   className="store"
                   src="https://github.com/mattgoespro/public-resources/blob/master/images/logos/png/google-play.png?raw=true"
@@ -72,7 +71,10 @@ function Home() {
           <div className="card">
             <div className="platform-title">App Store</div>
             <div>
-              <a href="https://apps.apple.com/us/app/smellsense-smell-training/id1594343545" target="_blank" rel="noreferrer">
+              <a
+                href="https://apps.apple.com/us/app/smellsense-smell-training/id1594343545"
+                target="_blank"
+                rel="noreferrer">
                 <img
                   className="store"
                   src="https://github.com/mattgoespro/public-resources/blob/master/images/logos/png/ios-app-store.png?raw=true"
